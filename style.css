@@ -1,0 +1,136 @@
+.body{
+    background-color: rgb(199, 184, 184);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+header{
+    height: 100px;
+}
+.head-belt{
+    background-color:#2caa13;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-family: Arial, sans-serif;
+}
+.head-main{
+    background-color: #44db26;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.head-main-tag{
+    font-size: 19px;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px;
+    color: white;
+    width: 200px;
+}
+.head-search{
+    height: 40px;
+    width: 40%;
+    border: solid 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar{
+    background-color: white;
+    height: 100%;
+    width: calc(100%-40px);
+}
+.submit-button{
+    
+    height: 40px;
+    width: 40px;
+}
+footer{
+    background-color: blue;
+}
+.card{
+    background-color: white;
+    height: 420px;
+    min-width: 250px;
+    border: solid 1px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.card-i{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 380px;
+}
+.card-tag{
+    font-size: 19px;
+    text-align: center;
+    height: auto;
+}
+.b{
+    /*background-color: gold;*/
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+.card-link{
+    margin-left: 10px;
+}
+.c{
+    background-color: black;
+    color: aliceblue;
+    width: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    /*background-color: antiquewhite;*/
+    height: 850px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 350px;
+}
+.inner{
+    height: 120px;
+    width: auto;
+    margin: 10px;
+}
+.card-inner{
+    height: 100%;
+    width: 100%;
+
+}
+#back-img{
+    
+    background-image: /*linear-gradient(
+        rgba(146, 118, 118, 0),rgba(146, 118, 118, 0.41))*/linear-gradient(
+        rgba(0, 0, 0, 0),rgb(199, 184, 184)), url("image/back-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+}
+.foot{
+    background-color: black;
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+}
+.foot-back{
+    background-color:  #44db26;
+    height: 20px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    color: white;
+}
+.foot-info{
+    background-color: #2caa13;
+    height: 40px;
+}
